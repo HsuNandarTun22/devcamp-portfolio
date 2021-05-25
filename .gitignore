@@ -38,3 +38,6 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# I don't want to show my webpacker 
+/config/webpacker.yml
