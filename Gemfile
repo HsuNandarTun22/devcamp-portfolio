@@ -53,3 +53,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'friendly_id', '~> 5.4', '>= 5.4.2'
+
+gem 'pry', '~> 0.13.1'
+
+gem 'ostruct', '~> 0.3.3'
