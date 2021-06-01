@@ -6,7 +6,7 @@ class User < ApplicationRecord
 
   validates_presence_of :name
   
-  def asdf
+  def first_name
       self.name.split.first	
   end
 
