@@ -7,15 +7,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'blogs', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-
-    <%= render "shared/nav", location: 'top' %>
-
+   
     <%= yield %>
+
+     <%= render "shared/nav", location: 'bottom' %>
 
     <% if session[:source] %>
       <p>Thanks for visiting from <%= session[:source] %></p>
